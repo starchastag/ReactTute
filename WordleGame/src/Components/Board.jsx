@@ -18,7 +18,7 @@ const Board = () => {
             <Letter letterPos={1} attempVal={1} />
             <Letter letterPos={2} attempVal={1} />
             <Letter letterPos={3} attempVal={1} />
-            <Letter letterPos={4} attempVal={2} />{""}
+            <Letter letterPos={4} attempVal={1} />{""}
         </div>
         <div className="row">
             <Letter letterPos={0} attempVal={2} />
@@ -35,10 +35,10 @@ const Board = () => {
             <Letter letterPos={4} attempVal={3} />
         </div>
         <div className="row">
-            <Letter letterPos={0} attempVal={3} />
-            <Letter letterPos={1} attempVal={3} />
-            <Letter letterPos={2} attempVal={3} />
-            <Letter letterPos={3} attempVal={3} />
+            <Letter letterPos={0} attempVal={4} />
+            <Letter letterPos={1} attempVal={4} />
+            <Letter letterPos={2} attempVal={4} />
+            <Letter letterPos={3} attempVal={4} />
             <Letter letterPos={4} attempVal={4} />
         </div>
         <div className="row">

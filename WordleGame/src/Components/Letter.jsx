@@ -6,7 +6,7 @@ const Letter = ({letterPos,attempVal}) => {
     const letter = board[attempVal][letterPos];
 
   return (
-    <div className='letter'>{letterPos}</div>
+    <div className='letter' id=''>{letter}</div>
   )
 }
 
